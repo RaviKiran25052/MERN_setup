@@ -1,0 +1,14 @@
+backend:
+npm i bcryptjs cors dotenv express jsonwebtoken mongoose nodemailer
+npm i -D nodemon
+
+frontend:
+npm i aos axios lucide-react react-router-dom react-toastify	 
+npm i -D autoprefixer postcss tailwindcss@3
+npx tailwindcss init -p
+
+"./src/**/*.{js,jsx,ts,tsx}",
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
