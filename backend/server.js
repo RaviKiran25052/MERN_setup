@@ -16,7 +16,7 @@ app.use(express.json());
 // Base route
 app.get('/', (req, res) => res.send('API is running...'));
 
-const PORT = process.env.PORT || 5555;
+const PORT = process.env.PORT || 5050;
 const environment = process.env.NODE_ENV || 'development';
 
 // run the server using "npm run dev" command
